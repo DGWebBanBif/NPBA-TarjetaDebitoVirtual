@@ -1,0 +1,96 @@
+<div id="nuevos-beneficios">
+  <div class="centrado">
+    <h3 class="text-center pt-1">
+      Conoce lo nuevo que trae <br />
+      <strong>la Cuenta Ahorro Digital y Tarjeta Débito Virtual</strong>
+    </h3>
+    <p class="text-center mb-1 mt-1">
+      Conoce los nuevos servicios que ponemos a tu disposición en BanBif App.
+    </p>
+    <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12 text-center">
+      <div class="owl-carousel owl-theme owl-loaded owl-drag">
+        <div class="owl-stage-outer">
+          <div
+            class="owl-stage"
+            style="
+              transform: translate3d(-560px, 0px, 0px);
+              transition: all 0s ease 0s;
+              width: 1960px;
+            "
+          >
+            <div class="owl-item active" style="width: 280px">
+              <div class="item">
+                <div class="box-beneficio">
+                  <img
+                    src="/portals/0/Landings/holabank/img/ico-atm.svg"
+                    alt="icono beneficios"
+                  />
+                  <p>
+                    Retira dinero <br />
+                    <strong>Sin Tarjeta</strong>
+                  </p>
+                  <a class="btn-link" target="_blank" href="/retiro-sin-tarjeta"
+                    ><u>Ver más</u><span class="fa fa-angle-right"></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="owl-item" style="width: 280px">
+              <div class="item">
+                <div class="box-beneficio">
+                  <img
+                    src="/portals/0/Landings/holabank/img/ico-qr.svg"
+                    alt="icono beneficios"
+                  />
+                  <p>
+                    Paga sin contacto <br />
+                    con <strong>Pagos QR</strong>
+                  </p>
+                  <a class="btn-link" target="_blank" href="/pagos-qr"
+                    ><u>Ver más</u><span class="fa fa-angle-right"></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="owl-item" style="width: 280px">
+              <div class="item">
+                <div class="box-beneficio">
+                  <img
+                    src="/portals/0/Landings/holabank/img/ico-plin.svg"
+                    alt="icono beneficios"
+                  />
+                  <p>
+                    Transfiere a otros <br />
+                    bancos con <strong>PLIN</strong>
+                  </p>
+                  <a class="btn-link" target="_blank" href="/plin"
+                    ><u>Ver más</u><span class="fa fa-angle-right"></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $('#nuevos-beneficios .owl-carousel').owlCarousel({
+          loop: true,
+          responsiveClass: true,
+          nav: false,
+          dots: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 3,
+              loop: false,
+            },
+          },
+        });
+      });
+    </script>
+  </div>
+</div>
